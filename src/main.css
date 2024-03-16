@@ -1,0 +1,159 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.result {
+    display: flex;
+    justify-content: center;
+}
+
+.hangman {
+    display: flex;
+    justify-content: center;
+}
+
+.body {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    height: 250px;
+    width: 250px;
+}
+
+.stand1 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100px;
+    height: 5px;
+    background-color: black;
+}
+
+.stand2 {
+    position: absolute;
+    left: 47.5px;
+    bottom: 0;
+    width: 5px;
+    height: 250px;
+    background-color: black;
+}
+
+.stand3 {
+    position: absolute;
+    left: 47.5px;
+    bottom: 245px;
+    width: 150px;
+    height: 5px;
+    background-color: black;
+}
+
+.stand4 {
+    position: absolute;
+    left: 197px;
+    bottom: 190px;
+    width: 5px;
+    height: 60px;
+    background-color: black;
+}
+
+.head {
+    position: absolute;
+    left: 175px;
+    bottom: 140px;
+    width: 40px;
+    height: 40px;
+    border: solid 5px blue;
+    border-radius: 50%;
+}
+
+.back {
+    position: absolute;
+    left: 197px;
+    bottom: 75px;
+    width: 6px;
+    height: 70px;
+    background-color: blue;
+}
+
+.hand1 {
+    position: absolute;
+    left: 190px;
+    bottom: 100px;
+    width: 4px;
+    height: 40px;
+    rotate: 20deg;
+    background-color: blue;
+}
+
+.hand2 {
+    position: absolute;
+    left: 205px;
+    bottom: 100px;
+    width: 4px;
+    height: 40px;
+    rotate: 160deg;
+    background-color: blue;
+}
+
+.leg1 {
+    position: absolute;
+    left: 190px;
+    bottom: 40px;
+    width: 4.5px;
+    height: 40px;
+    rotate: 20deg;
+    background-color: blue;
+}
+
+.leg2 {
+    position: absolute;
+    left: 205px;
+    bottom: 40px;
+    width: 4.5px;
+    height: 40px;
+    rotate: 160deg;
+    background-color: blue;
+}
+
+.word {
+    display: flex;
+    justify-content: center;
+}
+
+.word1 {
+    font-size: 80px;
+    font-weight: bolder;
+    text-align: center;
+    border-bottom: .1em solid black;
+    margin-left: 9px;
+}
+
+.keyboardContainer {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+
+.key {
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+    border: 2px solid black;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.key:hover {
+    background-color: lightgray;
+}
